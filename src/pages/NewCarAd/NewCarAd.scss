@@ -1,0 +1,27 @@
+.newCarAd{
+    .newCarAd__inner{
+        .form{
+            .formPart1{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-gap: 20px;
+                .formLeft{
+                    .formGroup{
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        margin: 15px 0;
+                    }
+                }
+                .formRight{
+                    .formGroup{
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,27 @@
+.home{
+    position: relative;
+    display: flex;
+    .filters{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 20px;
+    }
+    .reklam_left{
+        position:sticky;
+        top: 0;
+        padding: 0px;
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+        height: 100vh;
+    }
+    .reklam_right{
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        height: 100vh;
+    }
+}

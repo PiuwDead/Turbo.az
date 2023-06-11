@@ -1,0 +1,16 @@
+.header {
+    background: #c70808;
+    color: white;
+    .header__inner {
+        background-color: aqua;
+        .layout{
+            background: #c70808;
+            color: white;
+            display: flex;
+            padding: 15px;
+            gap: 15px;
+            margin: 0 auto;
+        }
+    }
+}
+
